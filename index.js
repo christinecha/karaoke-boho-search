@@ -17,7 +17,7 @@ function updateResults(response) {
 function getSongs(input) {
   var formData = new FormData($form)
   axios.post(
-    'http://www.karaokeboho.com/website/parts/songsearch.ajax.php',
+    'https://www.karaokeboho.com/website/parts/songsearch.ajax.php',
     formData,
     headers
   ).then((response) => {
